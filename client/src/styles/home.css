@@ -1,0 +1,51 @@
+.home {
+    width: 80%;
+    padding: 20px 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-heading {
+    font-size: 3rem;
+    font-weight: 600;
+    color: white;
+    margin: 30px;
+}
+
+.home-search {
+    font-size: 2rem;
+    padding: 10px;
+    width: 60%;
+}
+
+.search-button {
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+.search-result{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.anime-card{ 
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    padding: 20px;
+    border-radius: 12px;
+    margin: 10px;
+}
+
+.anime-card-image {
+    width: 100%;
+    height: 200px;
+}

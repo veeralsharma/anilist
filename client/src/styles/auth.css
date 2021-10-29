@@ -1,0 +1,42 @@
+.auth-form {
+    width: 40%;
+    background-color: white;
+    margin-left: 30%;
+    border-radius: 18px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-heading {
+    color: black;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.form-row{
+    margin: 20px 0;
+    font-size: 1.5rem;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 50%;
+}
+
+.form-label {
+    width: 25%;
+}
+
+.form-input {
+    width: 70%;
+    font-size: 1.5rem;
+    margin-left: 40px;
+}
+
+.form-button{
+    font-size: 1rem;
+    padding: 10px 20px;
+}

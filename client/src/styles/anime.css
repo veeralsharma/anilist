@@ -1,0 +1,74 @@
+.details {
+
+    background-color: white;
+    padding: 40px;
+    border-radius: 24px;
+
+}
+
+.details-banner {
+    width: 100%;
+}
+
+.details-extra {
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-start;
+}
+
+.details-extra-info {
+    font-weight: 600;
+    margin: 0 20px;
+}
+
+.review {
+    padding: 40px;
+    background-color: aliceblue;
+    margin: 20px 0;
+    border-radius: 24px;
+}
+
+.review-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.review-item {
+    width: 25%;
+    margin: 20px 20px;
+    border: 1px solid black;
+    border-radius: 18px;
+    padding: 20px;
+}
+
+.add-review{
+    padding: 20px;
+    background-color: white;
+    border-radius: 24px;
+}
+
+.add-review-rating {
+    font-size: 1.2rem;    
+}
+
+.add-review-input {
+    margin-left: 30px;
+    font-size: 1.2rem;    
+    margin-top: 20px ;
+    margin-bottom: 20px;
+}
+
+.add-review-input--text {
+    margin-left: 30px;
+    font-size: 1.2rem;  
+    margin-top: 20px ; 
+    margin-bottom: 20px;
+    width: 75%;
+}
+
+.add-review-button{ 
+    font-size: 1.2rem;
+    padding: 5px 10px;
+}
